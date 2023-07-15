@@ -18,6 +18,8 @@ defmodule AutoParserWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    get "/items", ItemsController, :index
   end
 
   # Other scopes may use custom stacks.

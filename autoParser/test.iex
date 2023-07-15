@@ -1,0 +1,5 @@
+alias AutoParser.Repo 
+alias AutoParser.Items
+alias AutoParser.Items.Item
+
+import Ecto.Query
